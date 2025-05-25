@@ -18,6 +18,7 @@ A web-based application built with **Python** and **Django** to manage and alloc
 - **Architecture:** MVT (Model-View-Template)
 
 ## 📁 Project Structure
+```python
 service_project/
 ├── service_allocation/ # Django project folder (settings, URLs)
 ├── allocations/ # App for managing services and technicians
@@ -27,6 +28,7 @@ service_project/
 │ ├── templates/ # HTML templates
 │ └── urls.py # App routing
 └── manage.py
+```
 
 
 
