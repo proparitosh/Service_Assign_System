@@ -33,32 +33,32 @@ service_project/
 ## 🚀 Getting Started
 
 1. **Clone the repository:**
-
    git clone https://github.com/yourusername/service-allocation-system.git
    cd service-allocation-system
 
    
 3. **Set up a virtual environment (optional but recommended)**:
 
+#
+```python
 python -m venv env
 env\Scripts\activate    # On Windows
 source env/bin/activate # On Linux/Mac
-
-
+```
 4.**Install dependencies:**
-
+```python
 pip install django
-
-
+```
 5.**Apply migrations:**
-
+```python
 python manage.py makemigrations
 python manage.py migrate
-
+```
 
 6.**Run the development server:**
+```python
 python manage.py runserver
-
+```
 
 7.**Access the app:**
 Open your browser and go to http://127.0.0.1:8000
